@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/SINAVSORU" />
+  <nestedChildShapes>
+    <classShape Id="e300aa3f-9598-4791-af16-16e616c76a08" absoluteBounds="0.5, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SINAVSORU/BASLIK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1cb4e8b-ded1-47c1-acf9-7b61d64d49c0" absoluteBounds="0.515, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f663f4e-497b-4db5-80a3-d076c5b66620" absoluteBounds="0.5, 2.25, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/SINAVSORU/LOGIN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="749341d8-ff30-4fbf-a7ca-c5df79b7f803" absoluteBounds="0.515, 2.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="82716ee2-300a-4795-a163-8079f0fc2871" absoluteBounds="7.375, 0.5, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/SINAVSORU/MANUELSORULAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fa73c388-b2b6-422b-8c89-58c75cd78d81" absoluteBounds="7.39, 0.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="541c61ee-03f1-4ca6-b0d7-21e3b90d4390" absoluteBounds="5.125, 0.5, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/SINAVSORU/RASTGELESORULAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3900ebe5-0203-415f-b935-0b68b088b2bc" absoluteBounds="5.14, 0.96, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ef4fb926-083d-4e32-be5c-582944c4178d" absoluteBounds="2.75, 0.5, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/SINAVSORU/SORULAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="803cd8af-4fea-4170-a6f3-4ffeeb3b83e0" absoluteBounds="2.765, 0.96, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

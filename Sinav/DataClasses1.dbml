@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SINAVSORU" ContextNamespace="Database1datacontext" Provider="SQLCompact" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="BASLIK" Member="BASLIKs">
+    <Type Name="BASLIK">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BASLIK" Member="BASLIK1" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="SORUSAY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="LOGIN" Member="LOGINs">
+    <Type Name="LOGIN">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KULLANICI" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="SİFRE" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="MANUELSORULAR" Member="MANUELSORULARs">
+    <Type Name="MANUELSORULAR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BASLIKID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BASLIK" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="SORU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CEVAPAHARF" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAPA" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAPBHARF" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAPB" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAPCHARF" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAPC" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAPDHARF" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAPD" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DOGRUSIK" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAP_COZ_A" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAP_COZ_B" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAP_COZ_C" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAP_COZ_D" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="RASTGELESORULAR" Member="RASTGELESORULARs">
+    <Type Name="RASTGELESORULAR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BASLIKID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BASLIK" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="SORU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CEVAP_A_HARF" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAP_A" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CEVAP_B_HARF" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAP_B" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CEVAP_C_HARF" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAP_C" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CEVAP_D_HARF" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CEVAP_D" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="DOGRUSIK" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BASLIKNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SORUNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CEVAP_COZ_A" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CEVAP_COZ_B" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CEVAP_COZ_C" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CEVAP_COZ_D" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="SORULAR" Member="SORULARs">
+    <Type Name="SORULAR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BASLIK" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="CVPHARFA" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="CVPHARFB" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="CVPHARFC" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="CVPHARFD" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="CVPA" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CVPB" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CVPC" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CVPD" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CVPCOZA" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CVPCOZB" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CVPCOZC" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CVPCOZD" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CVPSIK" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="AKTIF" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BASLIKID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SORU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KULLANIM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
