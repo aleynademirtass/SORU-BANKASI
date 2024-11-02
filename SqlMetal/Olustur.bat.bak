@@ -1,0 +1,6 @@
+@echo off
+cd..
+cd..
+cd SqlMetal
+SqlMetal /Pluralize /provider:SQLCompact /dbml:DataClasses1.dbml STOK.sdf /Password:**ms1845ms**
+pause
